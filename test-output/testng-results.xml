@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-09-08T19:21:18 GMT-04:00" name="FirstRun" finished-at="2023-09-08T19:23:23 GMT-04:00" duration-ms="125475">
+    <groups>
+    </groups>
+    <test started-at="2023-09-08T19:21:18 GMT-04:00" name="Initial test" finished-at="2023-09-08T19:21:59 GMT-04:00" duration-ms="40900">
+      <class name="testlayer.SearchTest">
+        <test-method is-config="true" signature="initsetup()[pri:0, instance:testlayer.SearchTest@740cae06]" started-at="2023-09-08T19:21:18 GMT-04:00" name="initsetup" finished-at="2023-09-08T19:21:23 GMT-04:00" duration-ms="5179" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initsetup -->
+        <test-method signature="search(java.lang.String)[pri:0, instance:testlayer.SearchTest@740cae06]" started-at="2023-09-08T19:21:23 GMT-04:00" name="search" data-provider="keyword" finished-at="2023-09-08T19:21:30 GMT-04:00" duration-ms="6635" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[toys]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search -->
+        <test-method is-config="true" signature="close()[pri:0, instance:testlayer.SearchTest@740cae06]" started-at="2023-09-08T19:21:30 GMT-04:00" name="close" finished-at="2023-09-08T19:21:30 GMT-04:00" duration-ms="331" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="initsetup()[pri:0, instance:testlayer.SearchTest@740cae06]" started-at="2023-09-08T19:21:30 GMT-04:00" name="initsetup" finished-at="2023-09-08T19:21:33 GMT-04:00" duration-ms="3122" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initsetup -->
+        <test-method signature="search(java.lang.String)[pri:0, instance:testlayer.SearchTest@740cae06]" started-at="2023-09-08T19:21:33 GMT-04:00" name="search" data-provider="keyword" finished-at="2023-09-08T19:21:40 GMT-04:00" duration-ms="7207" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[home appliances]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search -->
+        <test-method is-config="true" signature="close()[pri:0, instance:testlayer.SearchTest@740cae06]" started-at="2023-09-08T19:21:40 GMT-04:00" name="close" finished-at="2023-09-08T19:21:41 GMT-04:00" duration-ms="317" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="initsetup()[pri:0, instance:testlayer.SearchTest@740cae06]" started-at="2023-09-08T19:21:41 GMT-04:00" name="initsetup" finished-at="2023-09-08T19:21:44 GMT-04:00" duration-ms="3208" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initsetup -->
+        <test-method signature="search(java.lang.String)[pri:0, instance:testlayer.SearchTest@740cae06]" started-at="2023-09-08T19:21:44 GMT-04:00" name="search" data-provider="keyword" finished-at="2023-09-08T19:21:49 GMT-04:00" duration-ms="5013" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[gadgets]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search -->
+        <test-method is-config="true" signature="close()[pri:0, instance:testlayer.SearchTest@740cae06]" started-at="2023-09-08T19:21:49 GMT-04:00" name="close" finished-at="2023-09-08T19:21:49 GMT-04:00" duration-ms="389" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- testlayer.SearchTest -->
+      <class name="testlayer.SigninTest">
+        <test-method is-config="true" signature="initsetup()[pri:0, instance:testlayer.SigninTest@712625fd]" started-at="2023-09-08T19:21:49 GMT-04:00" name="initsetup" finished-at="2023-09-08T19:21:52 GMT-04:00" duration-ms="3025" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initsetup -->
+        <test-method signature="successfulsignin()[pri:1, instance:testlayer.SigninTest@712625fd]" started-at="2023-09-08T19:21:52 GMT-04:00" name="successfulsignin" finished-at="2023-09-08T19:21:59 GMT-04:00" duration-ms="6101" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- successfulsignin -->
+        <test-method is-config="true" signature="close()[pri:0, instance:testlayer.SigninTest@712625fd]" started-at="2023-09-08T19:21:59 GMT-04:00" name="close" finished-at="2023-09-08T19:21:59 GMT-04:00" duration-ms="297" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- testlayer.SigninTest -->
+    </test> <!-- Initial test -->
+    <test started-at="2023-09-08T19:21:59 GMT-04:00" name="Following Test" finished-at="2023-09-08T19:23:23 GMT-04:00" duration-ms="84544">
+      <class name="testlayer.SpecificProductTest">
+        <test-method is-config="true" signature="initsetup()[pri:0, instance:testlayer.SpecificProductTest@69ee81fc]" started-at="2023-09-08T19:22:44 GMT-04:00" name="initsetup" finished-at="2023-09-08T19:22:48 GMT-04:00" duration-ms="3139" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initsetup -->
+        <test-method signature="beforecart()[pri:3, instance:testlayer.SpecificProductTest@69ee81fc]" started-at="2023-09-08T19:22:48 GMT-04:00" name="beforecart" finished-at="2023-09-08T19:23:11 GMT-04:00" duration-ms="23388" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforecart -->
+        <test-method is-config="true" signature="close()[pri:0, instance:testlayer.SpecificProductTest@69ee81fc]" started-at="2023-09-08T19:23:11 GMT-04:00" name="close" finished-at="2023-09-08T19:23:11 GMT-04:00" duration-ms="329" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- testlayer.SpecificProductTest -->
+      <class name="testlayer.ProductPageTest">
+        <test-method is-config="true" signature="initsetup()[pri:0, instance:testlayer.ProductPageTest@2d29b4ee]" started-at="2023-09-08T19:22:21 GMT-04:00" name="initsetup" finished-at="2023-09-08T19:22:24 GMT-04:00" duration-ms="3026" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initsetup -->
+        <test-method signature="filtertest()[pri:1, instance:testlayer.ProductPageTest@2d29b4ee]" started-at="2023-09-08T19:22:24 GMT-04:00" name="filtertest" finished-at="2023-09-08T19:22:29 GMT-04:00" duration-ms="5259" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- filtertest -->
+        <test-method is-config="true" signature="close()[pri:0, instance:testlayer.ProductPageTest@2d29b4ee]" started-at="2023-09-08T19:22:29 GMT-04:00" name="close" finished-at="2023-09-08T19:22:29 GMT-04:00" duration-ms="294" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="initsetup()[pri:0, instance:testlayer.ProductPageTest@2d29b4ee]" started-at="2023-09-08T19:22:29 GMT-04:00" name="initsetup" finished-at="2023-09-08T19:22:33 GMT-04:00" duration-ms="3330" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initsetup -->
+        <test-method signature="paginationtest()[pri:2, instance:testlayer.ProductPageTest@2d29b4ee]" started-at="2023-09-08T19:22:33 GMT-04:00" name="paginationtest" finished-at="2023-09-08T19:22:44 GMT-04:00" duration-ms="11475" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- paginationtest -->
+        <test-method is-config="true" signature="close()[pri:0, instance:testlayer.ProductPageTest@2d29b4ee]" started-at="2023-09-08T19:22:44 GMT-04:00" name="close" finished-at="2023-09-08T19:22:44 GMT-04:00" duration-ms="346" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- testlayer.ProductPageTest -->
+      <class name="testlayer.AddtoCartTest">
+        <test-method is-config="true" signature="initsetup()[pri:0, instance:testlayer.AddtoCartTest@49c90a9c]" started-at="2023-09-08T19:21:59 GMT-04:00" name="initsetup" finished-at="2023-09-08T19:22:02 GMT-04:00" duration-ms="2903" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initsetup -->
+        <test-method signature="validateAddtoCart()[pri:4, instance:testlayer.AddtoCartTest@49c90a9c]" started-at="2023-09-08T19:22:02 GMT-04:00" name="validateAddtoCart" finished-at="2023-09-08T19:22:20 GMT-04:00" duration-ms="18723" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateAddtoCart -->
+        <test-method is-config="true" signature="close()[pri:0, instance:testlayer.AddtoCartTest@49c90a9c]" started-at="2023-09-08T19:22:20 GMT-04:00" name="close" finished-at="2023-09-08T19:22:21 GMT-04:00" duration-ms="263" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- testlayer.AddtoCartTest -->
+      <class name="testlayer.OrderTest">
+        <test-method is-config="true" signature="initsetup()[pri:0, instance:testlayer.OrderTest@6e2aa843]" started-at="2023-09-08T19:23:11 GMT-04:00" name="initsetup" finished-at="2023-09-08T19:23:15 GMT-04:00" duration-ms="3199" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initsetup -->
+        <test-method signature="orderhistory()[pri:0, instance:testlayer.OrderTest@6e2aa843]" started-at="2023-09-08T19:23:15 GMT-04:00" name="orderhistory" finished-at="2023-09-08T19:23:23 GMT-04:00" duration-ms="8570" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- orderhistory -->
+        <test-method is-config="true" signature="close()[pri:0, instance:testlayer.OrderTest@6e2aa843]" started-at="2023-09-08T19:23:23 GMT-04:00" name="close" finished-at="2023-09-08T19:23:23 GMT-04:00" duration-ms="266" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- testlayer.OrderTest -->
+    </test> <!-- Following Test -->
+  </suite> <!-- FirstRun -->
+</testng-results>

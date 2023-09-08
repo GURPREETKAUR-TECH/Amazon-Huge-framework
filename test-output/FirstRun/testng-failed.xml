@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [FirstRun]" guice-stage="DEVELOPMENT">
+  <parameter name="keyword" value="toys"/>
+  <test thread-count="5" name="Initial test(failed)">
+    <classes>
+      <class name="testlayer.SearchTest">
+        <methods>
+          <include name="search"/>
+          <include name="initsetup"/>
+        </methods>
+      </class> <!-- testlayer.SearchTest -->
+    </classes>
+  </test> <!-- Initial test(failed) -->
+  <test thread-count="5" name="Following Test(failed)">
+    <classes>
+      <class name="testlayer.AddtoCartTest">
+        <methods>
+          <include name="initsetup"/>
+          <include name="validateAddtoCart"/>
+        </methods>
+      </class> <!-- testlayer.AddtoCartTest -->
+    </classes>
+  </test> <!-- Following Test(failed) -->
+</suite> <!-- Failed suite [FirstRun] -->

@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-FirstRun" class="navigator-link">
+              <span class="suite-name border-passed">FirstRun</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-FirstRun" class="navigator-link ">
+                    <span>C:\Users\gurpr\eclipse-workspace\newguru\Amazonhuge_Framework\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-FirstRun" class="navigator-link ">
+                    <span class="test-stats">2 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-FirstRun" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-FirstRun" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-FirstRun" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-FirstRun" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-FirstRun" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">9 methods,   9 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-FirstRun" class="hide-methods passed suite-FirstRun"> (hide)</a> <!-- hide-methods passed suite-FirstRun -->
+                      <a href="#" panel-name="suite-FirstRun" class="show-methods passed suite-FirstRun"> (show)</a> <!-- show-methods passed suite-FirstRun -->
+                    </span>
+                    <div class="method-list-content passed suite-FirstRun">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-FirstRun" title="testlayer.SpecificProductTest" class="method navigator-link" hash-for-method="beforecart">beforecart</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-FirstRun" title="testlayer.ProductPageTest" class="method navigator-link" hash-for-method="filtertest">filtertest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-FirstRun" title="testlayer.OrderTest" class="method navigator-link" hash-for-method="orderhistory">orderhistory</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-FirstRun" title="testlayer.ProductPageTest" class="method navigator-link" hash-for-method="paginationtest">paginationtest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-FirstRun" title="testlayer.SearchTest" class="method navigator-link" hash-for-method="search(home appliances)">search(home appliances)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-FirstRun" title="testlayer.SearchTest" class="method navigator-link" hash-for-method="search(toys)">search(toys)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-FirstRun" title="testlayer.SearchTest" class="method navigator-link" hash-for-method="search(gadgets)">search(gadgets)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-FirstRun" title="testlayer.SigninTest" class="method navigator-link" hash-for-method="successfulsignin">successfulsignin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-FirstRun" title="testlayer.AddtoCartTest" class="method navigator-link" hash-for-method="validateAddtoCart">validateAddtoCart</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-FirstRun -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-FirstRun" class="panel FirstRun">
+          <div class="suite-FirstRun-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testlayer.ProductPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="filtertest">
+                  </a> <!-- filtertest -->
+                  <span class="method-name">filtertest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="paginationtest">
+                  </a> <!-- paginationtest -->
+                  <span class="method-name">paginationtest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-FirstRun-class-passed -->
+          <div class="suite-FirstRun-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testlayer.SigninTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="successfulsignin">
+                  </a> <!-- successfulsignin -->
+                  <span class="method-name">successfulsignin</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-FirstRun-class-passed -->
+          <div class="suite-FirstRun-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testlayer.SearchTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="search(home appliances)">
+                  </a> <!-- search(home appliances) -->
+                  <span class="method-name">search</span>
+                  <span class="parameters">(home appliances)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="search(toys)">
+                  </a> <!-- search(toys) -->
+                  <span class="method-name">search</span>
+                  <span class="parameters">(toys)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="search(gadgets)">
+                  </a> <!-- search(gadgets) -->
+                  <span class="method-name">search</span>
+                  <span class="parameters">(gadgets)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-FirstRun-class-passed -->
+          <div class="suite-FirstRun-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testlayer.SpecificProductTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="beforecart">
+                  </a> <!-- beforecart -->
+                  <span class="method-name">beforecart</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-FirstRun-class-passed -->
+          <div class="suite-FirstRun-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testlayer.OrderTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="orderhistory">
+                  </a> <!-- orderhistory -->
+                  <span class="method-name">orderhistory</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-FirstRun-class-passed -->
+          <div class="suite-FirstRun-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testlayer.AddtoCartTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateAddtoCart">
+                  </a> <!-- validateAddtoCart -->
+                  <span class="method-name">validateAddtoCart</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-FirstRun-class-passed -->
+        </div> <!-- panel FirstRun -->
+        <div panel-name="test-xml-FirstRun" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\gurpr\eclipse-workspace\newguru\Amazonhuge_Framework\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;FirstRun&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Initial test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testlayer.SearchTest&quot;/&gt;
+      &lt;class name=&quot;testlayer.SigninTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Initial test --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Following Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testlayer.AddtoCartTest&quot;/&gt;
+      &lt;class name=&quot;testlayer.ProductPageTest&quot;/&gt;
+      &lt;class name=&quot;testlayer.SpecificProductTest&quot;/&gt;
+      &lt;class name=&quot;testlayer.OrderTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Following Test --&gt;
+&lt;/suite&gt; &lt;!-- FirstRun --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-FirstRun" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for FirstRun</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Initial test (2 classes)</span>
+              </li>
+              <li>
+                <span class="test-name">Following Test (4 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-FirstRun" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for FirstRun</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-FirstRun" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for FirstRun</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_FirstRun');
+function tableData_FirstRun() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(9);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'beforecart')
+data.setCell(0, 2, 'testlayer.SpecificProductTest')
+data.setCell(0, 3, 23388);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'validateAddtoCart')
+data.setCell(1, 2, 'testlayer.AddtoCartTest')
+data.setCell(1, 3, 18723);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'paginationtest')
+data.setCell(2, 2, 'testlayer.ProductPageTest')
+data.setCell(2, 3, 11475);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'orderhistory')
+data.setCell(3, 2, 'testlayer.OrderTest')
+data.setCell(3, 3, 8570);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'search')
+data.setCell(4, 2, 'testlayer.SearchTest')
+data.setCell(4, 3, 7207);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'search')
+data.setCell(5, 2, 'testlayer.SearchTest')
+data.setCell(5, 3, 6635);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'successfulsignin')
+data.setCell(6, 2, 'testlayer.SigninTest')
+data.setCell(6, 3, 6101);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'filtertest')
+data.setCell(7, 2, 'testlayer.ProductPageTest')
+data.setCell(7, 3, 5259);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'search')
+data.setCell(8, 2, 'testlayer.SearchTest')
+data.setCell(8, 3, 5013);
+window.suiteTableData['FirstRun']= { tableData: data, tableDiv: 'times-div-FirstRun'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <div id="times-div-FirstRun">
+              </div> <!-- times-div-FirstRun -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-FirstRun" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for FirstRun</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-FirstRun" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-FirstRun" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">testlayer.SearchTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">initsetup</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">search(toys)</span>
+                <span class="method-start">5180 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">close</span>
+                <span class="method-start">11815 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">initsetup</span>
+                <span class="method-start">12146 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">search(home appliances)</span>
+                <span class="method-start">15268 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">close</span>
+                <span class="method-start">22476 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">initsetup</span>
+                <span class="method-start">22793 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">search(gadgets)</span>
+                <span class="method-start">26001 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">close</span>
+                <span class="method-start">31017 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testlayer.SigninTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">initsetup</span>
+                <span class="method-start">31410 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">successfulsignin</span>
+                <span class="method-start">34436 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">close</span>
+                <span class="method-start">40538 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testlayer.AddtoCartTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">initsetup</span>
+                <span class="method-start">40866 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateAddtoCart</span>
+                <span class="method-start">43769 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">close</span>
+                <span class="method-start">62501 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testlayer.ProductPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">initsetup</span>
+                <span class="method-start">62766 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">filtertest</span>
+                <span class="method-start">65792 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">close</span>
+                <span class="method-start">71052 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">initsetup</span>
+                <span class="method-start">71346 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">paginationtest</span>
+                <span class="method-start">74676 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">close</span>
+                <span class="method-start">86167 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testlayer.SpecificProductTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">initsetup</span>
+                <span class="method-start">86515 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">beforecart</span>
+                <span class="method-start">89655 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">close</span>
+                <span class="method-start">113044 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testlayer.OrderTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">initsetup</span>
+                <span class="method-start">113374 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">orderhistory</span>
+                <span class="method-start">116573 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">close</span>
+                <span class="method-start">125144 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>
