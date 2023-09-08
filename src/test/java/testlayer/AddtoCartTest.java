@@ -26,7 +26,7 @@ public AddtoCartTest() {
 
 @BeforeMethod
 public void initsetup() {
-	// "initiation" method is commented because we are using @test from different class and driver is already initiated in that test once
+	
 	initiation();
 	
 // create object of addtocart_pom class
@@ -43,7 +43,7 @@ public void initsetup() {
      
 }
 
-// used "dependsOngroups" mechanism to use the test from different class
+
 @Test(priority=4)
 public void validateAddtoCart() throws InterruptedException {
 sp.searchbox();
